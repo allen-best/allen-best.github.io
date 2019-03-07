@@ -4,7 +4,7 @@
 	$visitor_email = $_POST['email'];
 	$message = $_POST['subject'];
 
-	$email_from = 'Githubwebsite@allen.com';
+	$email_from = $visitor_email;
 	$email_subject = "New Form Submission";
 	$email_body = "User Name: $fname.\n".
 					"User Name: $lname.\n".
