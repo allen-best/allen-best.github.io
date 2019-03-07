@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css/PersonalBootstrapWebsite.css" rel="stylesheet" type="text/css">
 
-    <title>Favorites</title>
+    <title>Contact</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"><img src="images/logonobackground.png" width="30" height="30" alt=""/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,81 +23,56 @@
         <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Resume-2.html">Resume</a>
+        <a class="nav-link" href="Resume.html">Resume</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="Favoorite-2.html">Favorites<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="Contact.html">Contact<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Contact-2.html">Contact</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Small Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://nyjetsplanet.firebaseapp.com">NYJetsPlanet</a>
+          <!-- <a class="dropdown-item" href="TODO/todo.html">ToDo List</a> -->
+          <!--<div class="dropdown-divider"></div>-->
+          <a class="dropdown-item" href="#">More Coming Soon!</a>
+        </div>
       </li>
     </ul>
   </div>
 </nav>
+</div>
 <div class="jumbotron">
-  <h2 class="display-4">Favorites</h2>
-  <p class="lead">Here are all of my favorite things from my favorite color to my favorite team</p>
+  <h2 class="display-4">Contact Me</h2>
+  <p class="lead">Do you need to know more about what I have done? Do you want to just inquire to see if I am available for a job/intern? Do you just want to say hello? Please fill out this form.</p>
   <hr class="my-4">
 </div>
+<div class="formcontainer">
+  <form action="//formspree.io/ajbest91@gmail.com" method="post">
 
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="images/Computer.jpg" alt="Mountains" style="width:100%;height:200px">
-      <h3 class="h3color">Favorite Tech</h3>
-      <p class="fcolor">My Computer</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="images/Yeezy.jpg" alt="Lights" style="width:100%;height:200px">
-      <h3 class="h3color">Favorite Sneaker</h3>
-      <p class="fcolor">Nike Yeezy 2 Red October</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="images/2kLogo.jpg" alt="Nature" style="width:100%;height:200px">
-      <h3 class="h3color">Favorite Game</h3>
-      <p class="fcolor">NBA2k</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="images/JetsLogo.png" alt="Mountains" style="width:100%;height:200px">
-      <h3 class="h3color">Favorite Team</h3>
-      <p class="fcolor">New York Jets</p>
-    </div>
-  </div>
-<div class="column">
-<div class="content">
-  <img src="images/BlackPanther.jpg" alt="Bear" style="width:100%;height:200px">
-  <h3 class="h3color">Favorite Hero</h3>
-  <p class="fcolor">Black Panther</p>
-</div>
-</div>
-<div class="column">
-<div class="content">
-  <img src="images/redgold.jpg" alt="Bear" style="width:100%;height:200px">
-  <h3 class="h3color">Favorite Colors</h3>
-  <p class="fcolor">Red and Gold</p>
-</div>
-</div>
-<div class="column">
-<div class="content">
-  <img src="images/SharkTankLogo.jpg" alt="Bear" style="width:100%;height:200px">
-  <h3 class="h3color">Favorite Show</h3>
-  <p class="fcolor">Shark Tank</p>
-</div>
-</div>
-<div class="column">
-<div class="content">
-  <img src="images/amclogo.png" alt="Bear" style="width:100%;height:200px">
-  <h3 class="h3color">Favorite Theater</h3>
-  <p class="fcolor">AMC</p>
-</div>
-</div>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+     <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="reason">Reason For Contact</label>
+    <select id="reason" name="reason">
+      <option value="business">Business Inquiries</option>
+      <option value="personal">Personal Inquiries</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="info">Please write more information for the reason for contact(Include name and way for me to contact you back).</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -133,8 +108,8 @@
   <!-- Social buttons -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="">Allen Best</a>
+  <div class="footer-copyright text-center py-3">Created By:
+    <a href="mailto: ajbest91@gmail.com">Allen Best</a>
   </div>
   <!-- Copyright -->
 
