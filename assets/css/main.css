@@ -4061,8 +4061,21 @@ input, select, textarea {
 	  background: #fff;
 	  border-radius: 4px;
 	}
+	
+	@media screen and (max-width: 736px) {
 
 	h4.teal-color{
 		color: #21b2a6 !important;
 		font-size:2vw;
+	}
+	
+	}
+
+	@media screen and (min-width: 736px) {
+
+	h4.teal-color{
+		color: #21b2a6 !important;
+		font-size:1vw;
+	}
+	
 	}
