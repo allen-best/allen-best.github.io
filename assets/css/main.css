@@ -3713,10 +3713,6 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
-				#banner br {
-					display: none;
-				}
-
 				#banner .more {
 					display: none;
 				}
@@ -4078,4 +4074,8 @@ input, select, textarea {
 		font-size:1vw;
 	}
 	
+	}
+
+	.myImage{
+	  margin-bottom: 2px;
 	}
