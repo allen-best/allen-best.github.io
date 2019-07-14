@@ -4062,6 +4062,7 @@ input, select, textarea {
 	  border-radius: 4px;
 	}
 
-	.teal-color{
+	h4.teal-color{
 		color: #21b2a6 !important;
+		font-size:2vw;
 	}
