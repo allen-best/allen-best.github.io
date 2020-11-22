@@ -2078,15 +2078,15 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: white;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: white;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: white;
 		}
 
 /* Image */
@@ -2487,7 +2487,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #1d242a;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2497,7 +2497,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #009ACD !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2505,7 +2505,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #009ACD !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2604,7 +2604,7 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: white;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2814,8 +2814,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #009ACD;
+			color: #009ACD;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2977,7 +2977,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color:#006181;
 			color: #d3d4e4;
 		}
 
@@ -3348,7 +3348,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #009ACD;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3957,10 +3957,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/dark-grayblue.jpeg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/dark-grayblue.jpeg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/dark-grayblue.jpeg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/dark-grayblue.jpeg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3978,10 +3978,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/dark-grayblue.jpeg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/dark-grayblue.jpeg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/dark-grayblue.jpeg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/dark-grayblue.jpeg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4061,7 +4061,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 	h4.teal-color{
-		color: #21b2a6 !important;
+		color: #009ACD !important;
 		font-size:2vw;
 	}
 	
@@ -4070,7 +4070,7 @@ input, select, textarea {
 	@media screen and (min-width: 736px) {
 
 	h4.teal-color{
-		color: #21b2a6 !important;
+		color: #009ACD !important;
 		font-size:1vw;
 	}
 	
